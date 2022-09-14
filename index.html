@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Resturant<span>.</span></a>
+
+      <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" id="tag1" class="fas fa-heart"></a>
+        <a href="#" id="tag2" class="fas fa-shopping-cart"></a>
+
+        <div id="login" class="fas fa-user"></div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login  -->
+
+    <div class="login">
+      <form action="">
+        <img src="1822.jpg" width="100px" height="100px" />
+        <h1 class="h1">Login</h1>
+        <label id="lab">Email</label>
+        <input type="text" /><br />
+        <label id="lab">Password</label>
+        <input type="password" name="" id="" />
+        <button class="btn">Login</button><br />
+
+        <a id="tag">Register Now</a>
+      </form>
+      <div id="close" class="fas fa-times"></div>
+    </div>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+      <div class="user">
+        <img src="images/user-img.jpg" alt="" />
+        <h3>Ihtisham Ur Rehman</h3>
+      </div>
+
+      <div class="links">
+        <a href="index.html">home</a>
+        <a href="item.html">Items</a>
+        <a href="about.html">About</a>
+        <a href="#deal">deal</a>
+        <a href="#review">review</a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+
+    <!--Home-->
+    <section class="home" id="home">
+      <div class="content">
+        <span>special offer</span>
+        <h3>sale upto 50% off</h3>
+        <a href="#" class="btn">Order now</a>
+      </div>
+
+      <div class="image">
+        <img src="images/home.png" alt="" />
+      </div>
+    </section>
+
+    <!--Categories-->
+
+    <section class="category">
+      <h1 class="heading">Order by <span>category</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pizza.jpg" alt="" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>in Pizza</h3>
+            <a href="#" class="btn">order now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/burger.jpg" alt="" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>in Burger</h3>
+            <a href="#" class="btn">order now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Items-->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>food</span> Offers</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img src="images/burger-1.jpg" class="small-image-1" alt="" />
+              <img src="images/p1.jpg" class="small-image-1" alt="" />
+              <img src="images/b2.jpg" class="small-image-1" alt="" />
+            </div>
+            <div class="big-image">
+              <img src="images/p2.jpg" class="big-image-1" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <h3>50% off Foods</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+              quasi nesciunt, error fuga facilis autem rerum cumque animi rem
+              natus.
+            </p>
+            <div class="price">$1.99 <span>$5.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img src="images/b2.jpg" class="small-image-2" alt="" />
+              <img src="images/fizza.jpg" class="small-image-2" alt="" />
+              <img src="images/m1.jpg" class="small-image-2" alt="" />
+            </div>
+            <div class="big-image">
+              <img src="images/m.jpg" class="big-image-2" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <h3>10% off Foods</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+              quasi nesciunt, error fuga facilis autem rerum cumque animi rem
+              natus.
+            </p>
+            <div class="price">$3.99 <span>$9.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img src="images/lu.jpg" class="small-image-3" alt="" />
+              <img src="images/lu2.jpg" class="small-image-3" alt="" />
+              <img src="images/lu3.jpg" class="small-image-3" alt="" />
+            </div>
+            <div class="big-image">
+              <img src="images/lu4.jpg" class="big-image-3" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <h3>Luxury Foods</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+              quasi nesciunt, error fuga facilis autem rerum cumque animi rem
+              natus.
+            </p>
+            <div class="price">$90.99 <span>$99.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="deal" id="deal">
+      <h1 class="heading">special <span>deal</span></h1>
+
+      <div class="row">
+        <div class="content">
+          <span class="discount">upto 50% off</span>
+          <h3 class="text">deal of the day</h3>
+          <div class="count-down">
+            <div class="box">
+              <h3 id="days">00</h3>
+              <span>days</span>
+            </div>
+            <div class="box">
+              <h3 id="hours">00</h3>
+              <span>hours</span>
+            </div>
+            <div class="box">
+              <h3 id="minutes">00</h3>
+              <span>minutes</span>
+            </div>
+            <div class="box">
+              <h3 id="seconds">00</h3>
+              <span>seconds</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="image">
+          <img src="images/counter-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customers <span>review</span></h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nesciunt nihil aut praesentium qui non, magnam perspiciatis
+                commodi fugit cumque quos, deserunt quidem esse fuga facilis
+                exercitationem, dolorum itaque corrupti tempore.
+              </p>
+              <div class="user">
+                <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  <h3>john deo</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nesciunt nihil aut praesentium qui non, magnam perspiciatis
+                commodi fugit cumque quos, deserunt quidem esse fuga facilis
+                exercitationem, dolorum itaque corrupti tempore.
+              </p>
+              <div class="user">
+                <img src="images/pic-2.png" alt="" />
+                <div class="user-info">
+                  <h3>Maria Ali</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nesciunt nihil aut praesentium qui non, magnam perspiciatis
+                commodi fugit cumque quos, deserunt quidem esse fuga facilis
+                exercitationem, dolorum itaque corrupti tempore.
+              </p>
+              <div class="user">
+                <img src="images/pic-3.png" alt="" />
+                <div class="user-info">
+                  <h3>Ibarim Khan</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nesciunt nihil aut praesentium qui non, magnam perspiciatis
+                commodi fugit cumque quos, deserunt quidem esse fuga facilis
+                exercitationem, dolorum itaque corrupti tempore.
+              </p>
+              <div class="user">
+                <img src="images/pic-4.png" alt="" />
+                <div class="user-info">
+                  <h3>Sara Khan</h3>
+                  <span>happy customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="box-container">
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="item.html">Items</a>
+            <a href="about.html">About</a>
+            <a href="#">deal</a>
+            <a href="#">review</a>
+          </div>
+
+          <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my order</a>
+            <a href="#">my cart</a>
+          </div>
+
+          <div class="box">
+            <h3>donwload links</h3>
+            <a href="#">windows store</a>
+            <a href="#">app store</a>
+            <a href="#">google store</a>
+          </div>
+
+          <div class="box">
+            <h3>contact us</h3>
+            <a href="#">+92 310 9773564</a>
+            <a href="#">ihtishamurrehman123@gmail.com</a>
+            <a href="#">Islamabad, pakistan - Blue Area</a>
+            <img src="images/payment.png" alt="" />
+          </div>
+        </div>
+
+        <div class="credit">
+          created by <span> Ihtisham ur Rehman</span> | all rights reserved
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="test.js"></script>
+  </body>
+</html>

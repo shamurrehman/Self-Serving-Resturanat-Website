@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Resturant<span>.</span></a>
+
+      <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" id="tag1" class="fas fa-heart"></a>
+        
+         <!-- <span id="counter">0</span> -->
+        <a href="#" id="tag2" class="fas fa-shopping-cart"></a>
+     
+        <div id="login" class="fas fa-user"></div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+     <!-- login  -->
+
+     <div class="login">
+      <form action="">
+        <img src="1822.jpg" width="100px" height="100px" />
+        <h1 class="h1">Login</h1>
+        <label id="lab">Email</label>
+        <input type="text" /><br />
+        <label id="lab">Password</label>
+        <input type="password" name="" id="" />
+        <button class="btn">Login</button><br />
+
+        <a id="tag">Register Now</a>
+      </form>
+      <div id="close" class="fas fa-times"></div>
+    </div>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+      <div class="user">
+        <img src="images/user_img.jpg" alt="" />
+        <h3>Ihtisham Ur Rehman</h3>
+      </div>
+
+      <div class="links">
+        <a href="index.html">home</a>
+        <a href="item.html">Items</a>
+        <a href="about.html">About</a>
+        <a href="#deal">deal</a>
+        <a href="#review">review</a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+
+    <section class="products" id="products">
+      <h1 class="heading">all <span>items</span></h1>
+
+      <div class="swiper-container product-slider gap">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/lu.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Lobster</h3>
+                <div class="price">$35.99 <span>$38.99</span></div>
+                <a href="#" class="btn" onclick="incrementValue()">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/fizza.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Pizza</h3>
+                <div class="price">$10.99 <span>$18.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/meat.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Meat</h3>
+                <div class="price">$15.99 <span>$18.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/lu3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Fries & pizza</h3>
+                <div class="price">$20.99 <span>$22.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/lu5.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Gold plated Ice cream<h3>
+                <div class="price">$25.99 <span>$28.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <div class="swiper-container product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/p3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Gold Pizza</h3>
+                <div class="price">$60.99 <span>$68.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/lu2.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Luxuryu meat</h3>
+                <div class="price">$48.99 <span>$58.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/frech.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Fries</h3>
+                <div class="price">$5.99 <span>$8.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/b1.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>black burger</h3>
+                <div class="price">$20.99 <span>$22.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <img src="images/b3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>burger with fries</h3>
+                <div class="price">$15.99 <span>$18.99</span></div>
+                <a href="#" class="btn" id="add-animation">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-container">
+          <div class="box-container">
+            <div class="box">
+              <h3>quick links</h3>
+              <a href="#">home</a>
+              <a href="item.html">Items</a>
+              <a href="about.html">About</a>
+              <a href="#">deal</a>
+              <a href="#">review</a>
+            </div>
+  
+            <div class="box">
+              <h3>extra links</h3>
+              <a href="#">my account</a>
+              <a href="#">my favorite</a>
+              <a href="#">my order</a>
+              <a href="#">my cart</a>
+            </div>
+  
+            <div class="box">
+              <h3>donwload links</h3>
+              <a href="#">windows store</a>
+              <a href="#">app store</a>
+              <a href="#">google store</a>
+            </div>
+  
+            <div class="box">
+              <h3>contact us</h3>
+              <a href="#">+92 310 9773564</a>
+              <a href="#">ihtishamurrehman123@gmail.com</a>
+              <a href="#">Islamabad, pakistan - Blue Area</a>
+              <img src="images/payment.png" alt="" />
+            </div>
+          </div>
+  
+          <div class="credit">
+            created by <span> Ihtisham ur Rehman</span> | all rights reserved
+          </div>
+        </div>
+      </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
